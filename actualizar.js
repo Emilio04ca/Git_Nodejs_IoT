@@ -16,5 +16,5 @@ tabla.updateOne({
     Presencia: 0
 }, ()=>{
     console.log('Dato Actulizado');
-    mongoose.disconnect(console.log('desconectado'));
+    mongoose.disconnect(console.log('descnectado'));
 })
