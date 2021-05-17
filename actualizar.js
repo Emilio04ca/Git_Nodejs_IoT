@@ -12,7 +12,7 @@ mongoose.connect(uri,{useNewUrlParser: true, useUnifiedTopology:true})
 tabla.updateOne({
     _id:'60a01ca652bff806f4d7bf51'
 },{
-    Porcentaje : 94,
+    Porcentaje : 95,
     Presencia: 0
 }, ()=>{
     console.log('Dato Actulizado');
